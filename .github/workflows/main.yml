@@ -10,3 +10,5 @@ jobs:
       uses: tsugunt/hello-world-javascript-action@v1
       with:
         name: 'Mona the Octocat'
+    - name: status check
+      run: echo "success? ${{ steps.hello.outputs.time }}"
