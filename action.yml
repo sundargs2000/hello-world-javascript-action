@@ -6,8 +6,8 @@ inputs:
     required: true
     default: 'World'
 outputs:
-  time: 
-    description: 'The time we greeted you'
+  status: 
+    description: 'success or failue'
 runs:
   using: 'node12'
   main: 'index.js'
