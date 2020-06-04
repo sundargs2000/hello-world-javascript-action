@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/hello-world-javascript-action@v1
+      uses: actions/hello-world-javascript-action@v2
       with:
         name: 'Mona the Octocat'
