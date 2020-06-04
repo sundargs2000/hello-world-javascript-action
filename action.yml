@@ -1,12 +1,12 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  name:  # id of input
+  name:  
     description: 'name'
     required: true
     default: 'World'
 outputs:
-  time: # id of output
+  time: 
     description: 'The time we greeted you'
 runs:
   using: 'node12'
