@@ -11,4 +11,4 @@ jobs:
       with:
         name: 'Mona the Octocat'
     - name: status check
-      run: echo "${{ steps.hello.outputs.status }}"
+      run: echo "status ${{ steps.hello.outputs.status }}"
