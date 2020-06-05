@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: tsugunt/hello-world-javascript-action@v1
+      uses: sundargs2000/hello-world-javascript-action@master
       with:
         name: 'Sundar'
     - name: status check
